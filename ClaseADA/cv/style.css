@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #bfc7bf;
+    justify-content: space-between; /* could also try with space-around */
+    border-radius: 10px;
+
+  }
+  
+  .flex-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #ffffff;
+    height: calc(100% - 20px); /* for demonstration purposes, subtracts top and bottom margin from height */
+    margin: 10px; /* for demonstration purposes */
+    border-radius: 20px;
+  }
+  body{
+    font-family: 'Ubuntu', sans-serif !important;
+  }

@@ -1,0 +1,5 @@
+VIEW =
+{
+    init: function()
+    {}
+}
