@@ -20,18 +20,104 @@
   }
   body{
     font-family: 'Ubuntu', sans-serif !important;
+    background: #e0dede;
   }
 
+  header
+  {
+    display: flex;
+  }
+  .home
+  {
+    background-color: #E4DCD1;
+
+  }
+  .home img{
+    height: 75px;
+    margin: 5px;
+    margin-left: 25px;
+  }
+
+  nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E4DCD1;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+  
+  nav a {
+    float: left;
+    border-right:1px solid #bbb;
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav a:hover:not(.active) {
+    background-color: #aca59b;
+  }
+  .activeBarr {
+    background-color: #ccc1b3;
+  }
   #ImagenSofi
   {
     float: right;
+    margin: 10px;
   }
+
   #ImagenPresentacion{
     width: 40%;
     float: right;
+    padding: 50px;
+    transition: transform .2s;
+    margin: 5 auto;
   }
+
   .Descripcion
   {
     margin: 20px;
     text-align: justify;
+  }
+
+  #homeMain
+  {
+    background-color: rgb(240, 239, 236);
+    height: 750px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+  }
+  #HomeWritte{
+    margin-top: 50px;
+  }
+  #FraseCitada
+  {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-style: italic !important;
+  }
+
+  .home-buttons
+  {
+    margin: 50px;
+  }
+
+  .home-buttons a
+  {
+    margin: 20px;
+    background-color: rgb(199, 195, 180);
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration:none;
+    color: black;
+  }
+  .home-buttons a:hover{
+    background-color: rgb(150, 149, 145);
   }
