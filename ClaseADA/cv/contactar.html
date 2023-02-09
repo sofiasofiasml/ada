@@ -20,40 +20,44 @@
     </div>
 
     <nav>
-        <a href="DatosPersonales.html" class="activeBarr">Datos Personales</a> 
-        <a href="Experiencia.html">Experience</a> 
-        <a href="softSkills.html">Soft Skills</a> 
-        <a href="hardSkills.html">Hard Skills</a> 
-        <a href="contactar.html">Contact</a>
-    </nav>
+      <a href="DatosPersonales.html"><p>Datos Personales</p></a> 
+      <a href="Experiencia.html" ><p>Experience</p></a> 
+      <a href="softSkills.html" ><p>Soft Skills</p></a> 
+      <a href="hardSkills.html" ><p>Hard Skills</p></a> 
+      <a href="contactar.html" class="activeBarr"><p>Contact</p></a>
+  </nav>
 
 </header>
     <main>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-             <li>
-               <label for="name">Nombre *:</label>
-               <input type="text" id="name" name="user_name" placeholder="Nombre y Apellido" required>
-             </li>
-             <li>
-               <label for="mail">Correo electrónico:</label>
-               <input type="email" id="mail" name="user_mail" placeholder="correo@gmail.com">
-             </li>
-             <li>
-               <label for="msg">Mensaje:</label>
-               <textarea id="msg" name="user_message" placeholder="Escribe..."></textarea>
-             </li>
-            </ul>
-            
-                <li class="button">
-                    <button type="submit">Enviar</button>
-                  </li>
-           </form>
+      
+      <form action="" 
+      target="" method="POST" name="formDatosPersonales" id="myform">
+        <h1>Envianos un mensaje</h1>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+      
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+      
+        <label for="email" />Email *</label>
+        <input type="email" name="email" id="email" placeholder="Email" required />
+      
+        <label for="asunto">Asunto</label>
+        <input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/>
+      
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" for="mensaje" placeholder="Describe brevemente en menos de 1000 carácteres" maxlength="1000"></textarea>
+        
+        <input type="submit" name="enviar" value="Enviar Mensaje"/>
+      </form>
         
     </main>
     <footer>
         &copy; Derechos Reservados 2023
     </footer>
+
+   
+
     <script src="js/CORE.js"></script>
     <script src="js/MODEL.js"></script>
     <script src="js/VIEW.js"></script>
