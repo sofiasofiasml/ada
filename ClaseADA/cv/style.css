@@ -72,11 +72,12 @@
   }
 
   #ImagenPresentacion{
-    width: 40%;
     float: right;
     padding: 50px;
     transition: transform .2s;
     margin: 5 auto;
+    max-height: 700px;
+    max-width: 30%;
   }
 
   .Descripcion
@@ -91,10 +92,13 @@
     height: 750px;
     border-radius: 20px;
     padding: 20px;
-    margin: 10px;
+    margin: 10px 10% 10px 10% ;
+
+
   }
   #HomeWritte{
     margin-top: 50px;
+   margin-left: 20%;
   }
   #FraseCitada
   {
@@ -107,6 +111,10 @@
   .home-buttons
   {
     margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    
   }
 
   .home-buttons a
