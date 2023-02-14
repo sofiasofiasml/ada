@@ -9,26 +9,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="home">
+            <input type="checkbox" class="check" >
             <a href="clase3.html">
                 <img src="./img/icon.png" alt="">
             </a>
+            <label onclick="VIEW.navDISPLAY()"  class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
         </div>
-
-        <nav>
-            <a href="DatosPersonales.html"><p>Datos Personales</p></a> 
-            <a href="Experiencia.html" ><p>Experience</p></a> 
-            <a href="softSkills.html"><p>Soft Skills</p></a> 
-            <a href="hardSkills.html" class="activeBarr"><p>Hard Skills</p></a> 
-            <a href="contactar.html"><p>Contact</p></a>
+    
+        <nav class="navDis">
+            <a href="DatosPersonales.html" ><p>Datos Personales</p></a> 
+            <a href="Experiencia.html"><p>Experience</p></a> 
+            <a href="softSkills.html" ><p>Soft Skills</p></a> 
+            <a href="hardSkills.html"  class="activeBarr" ><p>Hard Skills</p></a> 
+            <a href="contactar.html" ><p>Contact</p></a>
         </nav>
-
+    
     </header>
-    <main>
+    <main class="mainBox">
         <ul>
             <li>Audiovisual systems engineering | Universitat Pompeu Fabra</li>
             <ul>
@@ -49,7 +55,7 @@
             <li>LesGirls <a href="http://lesgirls.es/">Web</a> | </li>
         </ul>
     </main>
-    <footer>
+    <footer class="footerBox">
         &copy; Derechos Reservados 2023
     </footer>
     <script src="js/CORE.js"></script>

@@ -204,6 +204,50 @@
     resize:none;
     display:block;
   }
+  .checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.check{
+  display: none;
+}
+@media (min-width: 858px) and (max-width: 1199px){
+  /* .navDis
+  {
+    display: flex;
+    background-color: aqua;
+  }
+  .mainBox ,.footerBox
+  {
+    display: block;
+  } */
+}
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    nav a {
+      float: none;
+    }
+    nav
+    {
+      display: block;
+      height: 100vh;
+    }
+    header
+    {
+      display: block;
+    }
+
+   
+        
+    
+  }
 
   /* footer {
     width: 100%;

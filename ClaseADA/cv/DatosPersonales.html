@@ -10,27 +10,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="home">
+            <input type="checkbox" class="check" >
             <a href="clase3.html">
                 <img src="./img/icon.png" alt="">
             </a>
+            <label onclick="VIEW.navDISPLAY()"  class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
         </div>
-
-        <nav>
+    
+        <nav class="navDis">
             <a href="DatosPersonales.html" class="activeBarr"><p>Datos Personales</p></a> 
             <a href="Experiencia.html" ><p>Experience</p></a> 
             <a href="softSkills.html" ><p>Soft Skills</p></a> 
             <a href="hardSkills.html" ><p>Hard Skills</p></a> 
             <a href="contactar.html" ><p>Contact</p></a>
         </nav>
-
+    
     </header>
     <img id="ImagenSofi" src="img/sofiiii.png" alt="imagen">
-    <main>
+    <main class="mainBox">
         <section class="Descripcion">
             Mi nombre es Sofia Martínez, estoy estudiando ingeniería de sistemas audiovisuales, estoy en el último
             curso.
@@ -56,7 +62,7 @@
         </div>
 
     </main>
-    <footer>
+    <footer class="footerBox">
         &copy; Derechos Reservados 2023
     </footer>
     <script src="js/CORE.js"></script>

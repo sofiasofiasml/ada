@@ -4,5 +4,16 @@ var CORE =
     {
        VIEW.init(); 
        MODEL.init(); 
+        
     }, 
+
+    
+
+     
 }
+
+window.addEventListener("resize", function () {
+    VIEW.navDISPLAY(); 
+});
+    
+         

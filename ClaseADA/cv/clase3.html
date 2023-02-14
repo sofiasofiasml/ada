@@ -9,17 +9,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="home">
+            <input type="checkbox" class="check" >
             <a href="clase3.html">
                 <img src="./img/icon.png" alt="">
             </a>
+            <label onclick="VIEW.navDISPLAY()"  class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
         </div>
 
-        <nav>
+        <nav class="navDis">
             <a href="DatosPersonales.html"><p>Datos Personales</p></a> 
             <a href="Experiencia.html" ><p>Experience</p></a> 
             <a href="softSkills.html" ><p>Soft Skills</p></a> 
@@ -28,7 +34,7 @@
         </nav>
 
     </header>
-    <main id="homeMain">
+    <main class="mainBox" id="homeMain">
         
         <img id="ImagenPresentacion" src="./img/Presentacion.jpg" alt="">
         <div id="HomeWritte">
@@ -64,7 +70,7 @@
 
     </main>
     
-    <footer>
+    <footer class="footerBox">
         &copy; Derechos Reservados 2023
     </footer>
 
