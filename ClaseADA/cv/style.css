@@ -217,17 +217,32 @@
   display: none;
 }
 @media (min-width: 858px) and (max-width: 1199px){
-  /* .navDis
-  {
-    display: flex;
-    background-color: aqua;
-  }
-  .mainBox ,.footerBox
-  {
-    display: block;
-  } */
+  /* PC */
 }
+
+
+/*Pc pequeño*/
   @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    nav a {
+      float: none;
+    }
+   
+    nav
+    {
+      display: block;
+      height: 100vh;
+    }
+    header
+    {
+      display: block;
+    }
+
+  }
+  /*Mobile*/
+  @media only screen and (max-device-width: 640px) {
     .checkbtn{
       display: block;
     }
@@ -243,16 +258,35 @@
     {
       display: block;
     }
+    nav a p{
+      font-size: 50px;
 
-   
-        
-    
+    }
+    .checkbtn{
+      font-size: 60px;
+      margin-top: 30px;
+    }
+    .home img {
+      height: 150px;
+    }
+    .home img {
+    height: 151px;
+    }
+    #homeMain {
+      height: 1760px;
+    }
+    #HomeWritte
+    {
+      font-size: 46px;
+      margin-left: 5px;
+    }
+    footer{
+      font-size: 40px;
+      margin: 50px;
+    }
+    #homeMain
+    {
+      margin: 15px 5% 5px 5%;
+    }
   }
-
-  /* footer {
-    width: 100%;
-    height: 38px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-} */
+  

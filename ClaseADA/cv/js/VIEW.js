@@ -13,8 +13,8 @@ VIEW =
         
         var homeBox = document.querySelector(".mainBox");
         var footerBox = document.querySelector(".footerBox");
-        
-        if(window.innerWidth <= 858)
+        console.log(window.innerWidth); 
+        if(window.innerWidth <= 858 || MODEL.detectMob())
         {
             if (checkBox.checked == true){
                 nav.style.display = "block";
@@ -32,11 +32,13 @@ VIEW =
         }
         else
         {
+        
             nav.style.display = "flex";
             homeBox.style.display = "block";
             footerBox.style.display = "block";
         }
         
-    }
+    },
+    
 
 }
